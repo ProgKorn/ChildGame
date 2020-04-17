@@ -1,0 +1,88 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Alphabet Game</Name>
+    <Description>Press the letters and sounds will play</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Alphabet Game</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WindowsFormsApp1.csproj" File="WindowsFormsApp1.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="A.png">A.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="A.wav">A.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="B.png">B.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="B.wav">B.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="C.png">C.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="C.wav">C.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="D.png">D.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="D.wav">D.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="E.png">E.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="E.wav">E.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="F.png">F.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="F.wav">F.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="G.png">G.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="G.wav">G.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="H.png">H.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="H.wav">H.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="I.png">I.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="I.wav">I.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="J.png">J.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="J.wav">J.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="K.png">K.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="K.wav">K.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="L.png">L.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="L.wav">L.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="M.png">M.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="M.wav">M.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="N.png">N.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="N.wav">N.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="O.png">O.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="O.wav">O.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="P.png">P.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="P.wav">P.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Q.png">Q.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Q.wav">Q.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="R.png">R.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="R.wav">R.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource1.resx">Resource1.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resource1.Designer.cs">Resource1.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="S.png">S.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="S.wav">S.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="T.png">T.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="T.wav">T.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="U.png">U.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="U.wav">U.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="V.png">V.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="V.wav">V.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="W.png">W.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="W.wav">W.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="X.png">X.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="X.wav">X.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Y.png">Y.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Y.wav">Y.wav</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Z.png">Z.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Z.wav">Z.wav</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
